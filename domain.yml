@@ -1,0 +1,26 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- bot_challenge
+- thanks
+- number_of_subscriber
+templates:
+  utter_greet:
+  - text: Hey! How may I assist you?
+  utter_anything_else:
+  - text: Is there anything else that I can help you with?
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_subscriber:
+    - text: Your subscriber count is {count}.
+actions:
+- utter_greet
+- utter_iamabot
+- utter_goodbye
+- utter_anything_else
+- action_subscriber
+- utter_subscriber
