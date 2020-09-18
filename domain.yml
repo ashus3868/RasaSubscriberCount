@@ -6,6 +6,7 @@ intents:
 - bot_challenge
 - thanks
 - number_of_subscriber
+- what_name
 templates:
   utter_greet:
   - text: Hey! How may I assist you?
@@ -17,6 +18,8 @@ templates:
   - text: I am a bot, powered by Rasa.
   utter_subscriber:
     - text: Your subscriber count is {count}.
+  utter_name:
+    - text: "My name is Innovate."	
 actions:
 - utter_greet
 - utter_iamabot
@@ -24,3 +27,4 @@ actions:
 - utter_anything_else
 - action_subscriber
 - utter_subscriber
+- utter_name

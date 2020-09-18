@@ -65,3 +65,10 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:what_name
+- What is your name?
+- tell me your name
+- what everyone calls you
+- may i know your name please
+
